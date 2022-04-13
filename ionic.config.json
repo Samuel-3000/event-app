@@ -1,0 +1,7 @@
+{
+  "name": "Event and Crop App",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

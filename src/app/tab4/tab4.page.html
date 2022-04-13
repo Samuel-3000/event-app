@@ -1,0 +1,136 @@
+<ion-header [translucent]="true">
+    <ion-toolbar>
+      <ion-title id="chat_title">
+        Chat 
+      </ion-title>
+      
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content  fullscreen id="chat">
+  <ion-list >
+    <ion-item >
+    <ion-list-header id="onlineheader"> Online </ion-list-header>
+  </ion-item>
+    <ion-item button (click)="presentAlertPrompt()">
+      <ion-avatar slot="start">
+        <img src="./assets/images/Abigail.png" />
+        <ion-progress-bar value="0.0" buffer="0.05"></ion-progress-bar>
+      </ion-avatar>
+      
+      <ion-label>
+        <h2>Abigail <ion-badge color="danger" > 1</ion-badge></h2>
+        
+        <!-- <h3>New Ride</h3> -->
+        <p>It is sooo hot and humid outside, talk about sweaty. I can't take this heat!</p>
+      </ion-label>
+      
+    </ion-item>
+
+    <!-- <ion-item>
+      <ion-badge slot="start">11</ion-badge>
+      <ion-label>My Item</ion-label>
+      <ion-badge slot="end">22</ion-badge>
+    </ion-item> -->
+
+    <ion-item button (click)="presentAlertPrompt2()">
+      <ion-avatar slot="start">
+        <img src="./assets/images/Penny.png" />
+        <ion-progress-bar value="0.0" buffer="0.05"></ion-progress-bar>
+      </ion-avatar>
+      <ion-label>
+        <h2>Penny <ion-badge color="danger" >3</ion-badge></h2>
+        <!-- <h3>Move Along</h3> -->
+        <p>I thought we were hanging out today, where are you? :(</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item button (click)="presentAlertPrompt3()" >
+      <ion-avatar slot="start">
+        <img src="./assets/images/Haley.png" />
+        <ion-progress-bar value="0.0" buffer="0.05"></ion-progress-bar>
+      </ion-avatar>
+      <ion-label>
+        <h2>Haley <ion-badge color="danger" ></ion-badge></h2>
+        <!-- <h3>You're My Only Hope</h3> -->
+        <p>Don't forget my birthday! You better get me a good present, xoxo</p>
+      </ion-label>
+    </ion-item>
+
+    <ion-item button (click)="presentAlertPrompt4()">
+      <ion-avatar slot="start">
+        <img src="./assets/images/Leah.png" />
+        <ion-progress-bar id="testybar" value="0.0" buffer="0.05" ></ion-progress-bar>
+      </ion-avatar>
+      <ion-label >
+        <h2>Leah <ion-badge color="danger" >5</ion-badge></h2>
+        <!-- <h3>Size matters not</h3> -->
+        <p>Wtf stop ignoring me! seriously we need to talk..call me RIGHT NOW</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+
+  <ion-list>
+    <ion-item>
+    <ion-list-header id="offlineheader"> Offline </ion-list-header>
+  </ion-item>
+    <ion-item  button (click)="presentAlertPrompt5()">
+      <ion-avatar slot="start">
+        <img src="./assets/images/Elliott.png" />
+        
+      </ion-avatar>
+      <ion-label>
+        <h2>Elliott</h2>
+        <!-- <h3>New Ride</h3> -->
+        <p>Party at the beach this weekend! There will be plenty of beer and.. firewood ;)</p>
+        
+      </ion-label>
+      
+    </ion-item>
+
+    <ion-item button (click)="presentAlertPrompt6()">
+      <ion-avatar slot="start">
+        <img src="./assets/images/Sebastian.png" />
+      </ion-avatar>
+      <ion-label>
+        <h2>Sebastian</h2>
+        <!-- <h3>Move Along</h3> -->
+        <p>I heard about the gemstone you found in the caves. We can head back together sometime to find more if you want.</p>
+      </ion-label>
+    </ion-item>
+
+
+  </ion-list>
+  </ion-content>
+<!-- Test toast (also see code in .ts file): -->
+  <!-- <ion-content class="ion-padding" >  
+    <h1>Show Toast Notification</h1>   
+    <ion-button (click)="openToast()" expand="round" color="success">Toast Show</ion-button>  
+  </ion-content>    -->
+
+
+
+
+
+  <!-- <ion-content [fullscreen]="true"> -->
+    <!-- <ion-header collapse="condense">
+      <ion-toolbar>
+        <ion-title size="large">Welcome to my page</ion-title>
+      </ion-toolbar>
+    </ion-header> -->
+  
+    <!-- <app-explore-container name="Tab 3 page"></app-explore-container>  -->
+  <!-- </ion-content> -->
+
+   
+
+    <!-- <ion-header collapse="condense">
+      <ion-toolbar>
+        <ion-title size="large">Welcome to my page</ion-title>
+      </ion-toolbar>
+    </ion-header> -->
+  
+    <!-- <app-explore-container name="Tab 3 page"></app-explore-container>  -->
+  
+  
