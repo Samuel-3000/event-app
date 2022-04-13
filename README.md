@@ -10,7 +10,7 @@ Please check out this game and support ConcernedApe's work.
 
 He has another awesome game on the way, "Haunted Chocolatier": https://www.hauntedchocolatier.net/ !
 
-All the characters, images, content etc. in this ionic app is copyright Eric "ConcernedApe" Barone the creator of this amazing game. 
+All the characters, images, content etc. in this ionic app are copyright and property of Eric "ConcernedApe" Barone, the creator of this amazing game. 
 
 Thanks and I hope you enjoy,
 
